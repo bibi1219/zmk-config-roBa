@@ -75,13 +75,15 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
-encoder_msc_down_up: encoder_msc_down_up {
-compatible = "zmk,behavior-sensor-rotate";
-label = "ENCODER_MSC_DOWN_UP";
-#sensor-binding-cells = <0>;
-bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
-tap-ms = <20>;
-};
+
+        encoder_msc_down_up: encoder_msc_down_up {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "ENCODER_MSC_DOWN_UP";
+            #sensor-binding-cells = <0>;
+            bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+
+            tap-ms = <20>;
+        };
     };
 
     keymap {
@@ -89,13 +91,13 @@ tap-ms = <20>;
 
         default_layer {
             bindings = <
-&kp Q          &kp W          &kp E           &kp R                 &kp T                                                   &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A          &kp S          &kp D           &kp F                 &kp G        &lt 6 A                     &kp COLON      &kp H        &kp J  &lt 5 K    &kp L    &kp MINUS
-&kp Z          &kp X          &kp C           &kp V                 &kp B        &kp RS(RC(Z))               &kp PLUS       &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp RIGHT_GUI  &kp RIGHT_ALT  &kp LEFT_SHIFT  &mt LCTRL LANGUAGE_2  &lt 3 SPACE  &lt_to_layer_0 2 LANG1      &kp BACKSPACE  &lt 1 ENTER                             &kp ESCAPE
+&kp Q          &kp W          &kp E      &kp R                      &kp T                                                   &kp Y        &kp U  &kp I      &kp O    &kp P
+&kp A          &kp S          &kp D      &kp F                      &kp G        &lt 6 A                     &kp COLON      &kp H        &kp J  &lt 5 K    &kp L    &kp MINUS
+&kp Z          &kp X          &kp C      &kp V                      &kp B        &kp RS(RC(Z))               &kp PLUS       &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&kp RIGHT_GUI  &kp RIGHT_ALT  &kp LCTRL  &mt LEFT_SHIFT LANGUAGE_2  &lt 3 SPACE  &lt_to_layer_0 2 LANG1      &kp BACKSPACE  &lt 1 ENTER                             &kp ESCAPE
             >;
 
-             sensor-bindings = <&encoder_msc_down_up>;
+            sensor-bindings = <&encoder_msc_down_up>;
         };
 
         nambar {
@@ -118,10 +120,10 @@ tap-ms = <20>;
 
         yajirushi {
             bindings = <
-&trans  &kp HOME        &kp UP_ARROW    &kp END          &trans                      &trans  &trans     &mkp MCLK  &trans     &trans
-&trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans      &trans  &trans  &mkp LCLK  &trans     &mkp RCLK  &trans
-&trans  &trans          &trans          &trans           &trans  &trans      &trans  &trans  &mkp MB4   &trans     &mkp MB5   &trans
-&trans  &trans          &trans          &trans           &trans  &trans      &trans  &trans                                   &trans
+&trans     &kp HOME        &kp UP_ARROW    &kp END          &trans                      &trans           &trans     &mkp MCLK  &trans     &trans
+&kp LC(A)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans      &trans  &kp LC(LS(TAB))  &mkp LCLK  &trans     &mkp RCLK  &kp LC(TAB)
+&trans     &kp LC(X)       &kp LC(C)       &kp LC(V)        &trans  &trans      &trans  &trans           &mkp MB4   &trans     &mkp MB5   &trans
+&trans     &trans          &trans          &trans           &trans  &trans      &trans  &trans                                            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(C_VOLUME_DOWN) LC(C_VOLUME_UP)>;
