@@ -43,7 +43,7 @@
 
         default {
             bindings = <&to 0>;
-            key-positions = <18 20 19>;
+            key-positions = <1 2 3>;
         };
 
         double_quotation {
@@ -156,12 +156,12 @@
             >;
         };
 
-        layer_7 {
+        blender {
             bindings = <
-&kp TAB         &kp Q          &kp W  &kp E  &kp R                          &trans  &trans  &trans  &trans  &trans
-&kp LCTRL       &kp A          &kp S  &kp D  &kp F      &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp Z          &kp X  &kp C  &kp V      &kp B       &trans  &trans  &trans  &trans  &trans  &trans
-&kp LCTRL       &kp RIGHT_ALT  &kp Y  &kp S  &kp SPACE  &trans      &trans  &trans                          &trans
+&kp TAB         &kp Q          &kp W  &kp E      &kp R                      &trans  &trans  &trans  &trans  &trans
+&kp LCTRL       &kp A          &kp S  &kp D      &kp F  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp Z          &kp X  &kp C      &kp V  &kp B       &trans  &trans  &trans  &trans  &trans  &trans
+&kp LCTRL       &kp RIGHT_ALT  &kp Y  &kp SPACE  &kp S  &kp R       &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PG_UP>;
