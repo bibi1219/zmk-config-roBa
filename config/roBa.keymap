@@ -46,13 +46,13 @@
             key-positions = <1 2 3>;
         };
 
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <12 13>;
         };
 
         eq {
-            bindings = <&kp EQUAL>;
+            bindings = <&kp BACKSPACE>;
             key-positions = <24 25>;
         };
     };
@@ -158,10 +158,10 @@
 
         blender {
             bindings = <
-&kp TAB         &kp Q          &kp W      &kp E  &kp R                      &trans  &trans  &trans  &trans  &trans
-&kp LCTRL       &kp A          &kp S      &kp D  &kp F  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp Z          &kp X      &kp C  &kp V  &kp B       &trans  &trans  &trans  &trans  &trans  &trans
-&kp LC(Z)       &kp RIGHT_ALT  &kp SPACE  &kp G  &kp S  &kp R       &trans  &trans                          &trans
+&kp TAB         &kp Q          &kp W      &kp E  &kp R                        &trans  &trans  &trans  &trans  &trans
+&kp LCTRL       &kp A          &kp S      &kp D  &kp F    &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp Z          &kp X      &kp C  &kp V    &kp B       &trans  &trans  &trans  &trans  &trans  &trans
+&kp LC(Z)       &kp RIGHT_ALT  &kp SPACE  &kp G  &lt 1 S  &kp R       &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PG_UP>;
