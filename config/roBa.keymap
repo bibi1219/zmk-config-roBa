@@ -55,6 +55,11 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <24 25>;
         };
+
+        test {
+            bindings = <&none>;
+            key-positions = <18 19 20 13>;
+        };
     };
 
     macros {
