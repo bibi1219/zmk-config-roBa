@@ -64,17 +64,17 @@ input-processors = <&zip_temp_layer 4 10000>;
 
 &zip_temp_layer {
     excluded-positions = <
-13 // F
+        13 // F
         18 // J
         19 // K
         20 // l
-6 
-7 
-8 
-30 
-32 
-17 
-21 
-31
+        6 // U
+        7 // I
+        8 // O
+        30 // M
+        32 //
+        17 // H
+        21 // 
+        31 // 
     >;
 };
