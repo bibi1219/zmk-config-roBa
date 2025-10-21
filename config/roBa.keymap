@@ -58,7 +58,7 @@
 
         test {
             bindings = <&none>;
-            key-positions = <18 19 20 13>;
+            key-positions = <6 7 8 30 32 17 21 31>;
         };
     };
 
@@ -136,10 +136,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans     &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans     &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                   &trans
+&trans  &trans  &trans  &trans   &trans                      &trans     &kp LS(LC(TAB))  &kp LC(R)    &kp LC(TAB)  &trans
+&trans  &trans  &trans  &lt 5 F  &trans  &trans      &trans  &kp LC(T)  &mkp LCLK        &mkp MCLK    &mkp RCLK    &kp LC(W)
+&trans  &trans  &trans  &trans   &trans  &trans      &trans  &trans     &mkp MB4         &kp LA(TAB)  &mkp MB5     &trans
+&trans  &trans  &trans  &trans   &trans  &trans      &trans  &trans                                                &trans
             >;
         };
 
