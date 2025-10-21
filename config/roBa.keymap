@@ -120,9 +120,9 @@
 
         yajirushi {
             bindings = <
-&trans     &kp HOME        &kp UP_ARROW    &kp END          &kp LC(LS(T))                                &kp LC(Y)          &kp LC(RS(TAB))  &trans       &kp LC(TAB)  &trans
-&kp LC(A)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans         &trans      &trans            &kp LC(T)          &mkp LCLK        &mkp MCLK    &mkp RCLK    &to 5
-&kp LC(Z)  &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp LS(LC(V))  &trans      &trans            &trans             &mkp MB4         &kp LA(TAB)  &mkp MB5     &kp LC(W)
+&trans     &kp HOME        &kp UP_ARROW    &kp END          &kp LC(LS(T))                                &kp LC(Y)          &kp LC(RS(TAB))  &kp LC(R)    &kp LC(TAB)  &trans
+&kp LC(A)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans         &trans      &trans            &kp LC(T)          &mkp LCLK        &mkp MCLK    &mkp RCLK    &lt 5 LC(W)
+&kp LC(Z)  &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp LS(LC(V))  &trans      &trans            &trans             &mkp MB4         &kp LA(TAB)  &mkp MB5     &trans
 &trans     &trans          &trans          &trans           &trans         &trans      &kp LC(LA(LEFT))  &kp LC(LA(RIGHT))                                             &trans
             >;
 
