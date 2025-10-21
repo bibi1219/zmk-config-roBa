@@ -14,12 +14,6 @@
             ;
 };
 
-
-&zip_temp_layer {
-    require-prior-idle-ms = <2000>;
-};
-
-
 / {
     trackball_listener: trackball_listener {
         compatible = "zmk,input-listener";
