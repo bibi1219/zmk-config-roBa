@@ -68,5 +68,13 @@ input-processors = <&zip_temp_layer 4 10000>;
         18 // J
         19 // K
         20 // l
+6 
+7 
+8 
+30 
+32 
+17 
+21 
+31
     >;
 };
