@@ -1,9 +1,8 @@
+#include <input/processors.dtsi>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
-
-#include <input/processors.dtsi>
 
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 200
 
@@ -138,7 +137,7 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans   &trans                      &trans     &kp LS(LC(TAB))  &kp LC(R)    &kp LC(TAB)  &trans
+&trans  &trans  &trans  &trans   &trans                      &trans     &kp LS(LC(TAB))  &lt 0 LC(R)  &kp LC(TAB)  &trans
 &trans  &trans  &trans  &lt 5 F  &trans  &trans      &trans  &kp LC(T)  &mkp LCLK        &mkp MCLK    &mkp RCLK    &kp LC(W)
 &trans  &trans  &trans  &trans   &trans  &trans      &trans  &trans     &mkp MB4         &kp LA(TAB)  &mkp MB5     &trans
 &trans  &trans  &trans  &trans   &trans  &trans      &trans  &trans                                                &trans
@@ -185,7 +184,4 @@
     };
 };
 
-
-&mkp_input_listener {
-    input-processors = <&zip_temp_layer 4 10000>;
-};
+&mkp_input_listener { input-processors = <&zip_temp_layer 4 10000>; };
