@@ -60,11 +60,6 @@
             bindings = <&none>;
             key-positions = <6 7 8 30 32 17 21 31>;
         };
-
-        nn {
-            bindings = <&kp F17>;
-            key-positions = <19 20>;
-        };
     };
 
     behaviors {
@@ -121,10 +116,10 @@
 
         yajirushi {
             bindings = <
-&trans     &kp HOME        &kp UP_ARROW    &kp END          &kp LC(LS(T))                      &kp LC(Y)      &kp LC(RS(TAB))  &kp LC(R)    &kp LC(TAB)  &kp LA(LC(LEFT))
-&kp LC(A)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans         &trans      &trans  &kp LC(T)      &mkp LCLK        &mkp MCLK    &mkp RCLK    &lt 5 LC(W)
-&kp LC(Z)  &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp LS(LC(V))  &trans      &trans  &trans         &mkp MB4         &kp LA(TAB)  &mkp MB5     &kp LA(LC(RIGHT))
-&trans     &trans          &trans          &trans           &trans         &trans      &trans  &kp LC(ENTER)                                             &trans
+&trans     &kp HOME        &kp UP_ARROW    &kp END          &kp LC(LS(T))                      &kp LC(Y)  &kp LC(RS(TAB))  &kp LC(R)    &kp LC(TAB)  &kp LA(LC(LEFT))
+&kp LC(A)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans         &trans      &trans  &kp LC(T)  &mkp LCLK        &mkp MCLK    &mkp RCLK    &lt 5 LC(W)
+&kp LC(Z)  &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp LS(LC(V))  &trans      &trans  &trans     &mkp MB4         &kp LA(TAB)  &mkp MB5     &kp LA(LC(RIGHT))
+&trans     &trans          &trans          &trans           &trans         &trans      &trans  &trans                                                &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(C_VOLUME_DOWN) LC(C_VOLUME_UP)>;
