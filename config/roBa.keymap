@@ -60,6 +60,11 @@
             bindings = <&none>;
             key-positions = <6 7 8 30 32 17 21 31>;
         };
+
+        nn {
+            bindings = <&kp F17>;
+            key-positions = <19 20>;
+        };
     };
 
     behaviors {
