@@ -85,7 +85,7 @@
             bindings = <
 &kp Q             &kp L          &kp U      &kp COMMA         &kp PERIOD                                      &kp F        &kp W  &kp R  &kp Y  &kp P
 &kp E             &kp I          &kp A      &kp O             &kp MINUS    &lt 6 F12           &kp SLASH      &kp K        &kp T  &kp N  &kp S  &lt 5 H
-&mt LEFT_SHIFT J  &kp X          &kp C      &kp V             &kp COLON    &kp F1              &kp PLUS       &kp G        &kp D  &kp M  &kp Z  &mt RIGHT_SHIFT B
+&mt LEFT_SHIFT J  &kp X          &kp C      &kp V             &kp GRAVE    &kp F1              &kp PLUS       &kp G        &kp D  &kp M  &kp Z  &mt RIGHT_SHIFT B
 &kp RIGHT_GUI     &kp RIGHT_ALT  &kp LCTRL  &lt 5 LANGUAGE_2  &lt 3 SPACE  &kp LANGUAGE_1      &kp BACKSPACE  &lt 1 ENTER                       &kp ESCAPE
             >;
 
@@ -96,7 +96,7 @@
             bindings = <
 &trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans                               &kp HASH     &kp AMPERSAND   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
 &kp NUMBER_0  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp EXCLAMATION  &trans      &trans  &kp PERCENT  &kp QUESTION    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
-&trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans           &trans      &trans  &kp PIPE     &kp UNDERSCORE  &kp F15               &kp F16                &trans
+&trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COLON        &trans      &trans  &kp PIPE     &kp UNDERSCORE  &kp F15               &kp F16                &trans
 &trans        &trans        &trans        &trans        &trans           &trans      &trans  &trans                                                                    &trans
             >;
         };
@@ -112,10 +112,10 @@
 
         yajirushi {
             bindings = <
-&trans     &kp HOME        &kp UP_ARROW    &kp END          &kp LC(LS(T))                      &kp LC(Y)      &kp LC(RS(TAB))  &kp LC(R)    &kp LC(TAB)  &kp LA(LC(LEFT))
-&kp LC(A)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans         &trans      &trans  &kp LC(T)      &mkp LCLK        &mkp MCLK    &mkp RCLK    &lt 5 LC(W)
-&kp LC(Z)  &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp LS(LC(V))  &trans      &trans  &trans         &mkp MB4         &kp LA(TAB)  &mkp MB5     &kp LA(LC(RIGHT))
-&trans     &trans          &trans          &trans           &trans         &trans      &trans  &kp LC(ENTER)                                             &trans
+&kp BACKSPACE  &kp HOME        &kp UP_ARROW    &kp END          &kp LC(LS(T))                      &kp LC(Y)      &kp LC(RS(TAB))  &kp LC(R)    &kp LC(TAB)  &kp LA(LC(LEFT))
+&kp LC(A)      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp ENTER      &trans      &trans  &kp LC(T)      &mkp LCLK        &mkp MCLK    &mkp RCLK    &lt 5 LC(W)
+&kp LC(Z)      &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp LS(LC(V))  &trans      &trans  &trans         &mkp MB4         &kp LA(TAB)  &mkp MB5     &kp LA(LC(RIGHT))
+&trans         &trans          &trans          &trans           &trans         &trans      &trans  &kp LC(ENTER)                                             &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(C_VOLUME_DOWN) LC(C_VOLUME_UP)>;
