@@ -55,6 +55,11 @@
             bindings = <&kp LC(S)>;
             key-positions = <10 11>;
         };
+
+        kakko {
+            bindings = <&kakko>;
+            key-positions = <7 8>;
+        };
     };
 
     behaviors {
@@ -65,6 +70,15 @@
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
 
             tap-ms = <20>;
+        };
+    };
+
+    macros {
+        kakko: kakko {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp ENTER &kp LEFT>;
+            label = "KAKKO";
         };
     };
 
