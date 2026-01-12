@@ -84,25 +84,25 @@
     };
 
     macros {
-        kakko: kakko {
+        kakko: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LEFT>;
-            label = "KAKKO";
+            bindings = <&kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp ENTER &kp LEFT>;
+            label = "NEW_MACRO";
         };
 
-        kakko2: kakko2 {
+        kakko2: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT>;
-            label = "KAKKO2";
+            bindings = <&kp LEFT_BRACKET &kp RIGHT_BRACKET &kp ENTER &kp LEFT>;
+            label = "NEW_MACRO";
         };
 
-        kakko3: kakko3 {
+        kakko3: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp F15 &kp F16 &kp LEFT>;
-            label = "KAKKO3";
+            bindings = <&kp F15 &kp F16 &kp ENTER &kp LEFT>;
+            label = "NEW_MACRO";
         };
     };
 
