@@ -84,25 +84,25 @@
     };
 
     macros {
-        kako: new_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp ENTER &kp LEFT>;
-            label = "NEW_MACRO";
-        };
-
-        kako2: new_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_BRACKET &kp RIGHT_BRACKET &kp ENTER &kp LEFT>;
-            label = "NEW_MACRO";
-        };
-
         kako3: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp F15 &kp F16 &kp ENTER &kp LEFT>;
             label = "NEW_MACRO";
+        };
+
+        kako2: kako2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_BRACKET &kp RIGHT_BRACKET &kp ENTER &kp LEFT>;
+            label = "KAKO2";
+        };
+
+        kako: kako {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp ENTER &kp LEFT>;
+            label = "KAKO";
         };
     };
 
