@@ -56,17 +56,17 @@
             key-positions = <10 11>;
         };
 
-        kakko {
+        kako {
             bindings = <&kako>;
             key-positions = <7 8>;
         };
 
-        kakko2 {
+        kako2 {
             bindings = <&kako2>;
             key-positions = <19 20>;
         };
 
-        kakko3 {
+        kako3 {
             bindings = <&kako3>;
             key-positions = <31 32>;
         };
