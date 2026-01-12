@@ -60,6 +60,16 @@
             bindings = <&kakko>;
             key-positions = <7 8>;
         };
+
+        kakko {
+            bindings = <&kakko2>;
+            key-positions = <19 20>;
+        };
+
+        kakko3 {
+            bindings = <&kakko3>;
+            key-positions = <31 32>;
+        };
     };
 
     behaviors {
@@ -77,8 +87,22 @@
         kakko: kakko {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp ENTER &kp LEFT>;
+            bindings = <&kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LEFT>;
             label = "KAKKO";
+        };
+
+        kakko2: kakko2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT>;
+            label = "KAKKO2";
+        };
+
+        kakko3: kakko3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp F15 &kp F16 &kp LEFT>;
+            label = "KAKKO3";
         };
     };
 
