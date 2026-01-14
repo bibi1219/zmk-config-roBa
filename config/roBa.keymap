@@ -139,7 +139,7 @@
 &kp W          &kp I   &kp Q        &kp E             &trans                                 &trans  &trans  &trans  &trans  &trans
 &kp D          &kp R   &kp SPACE    &kp TAB           &kp S       &trans             &trans  &trans  &trans  &trans  &trans  &trans
 &kp LC(Z)      &kp Z   &kp X        &kp A             &kp Y       &trans             &trans  &trans  &trans  &trans  &trans  &trans
-&kp LC(LS(Z))  &trans  &lt 1 LC(S)  &kp LEFT_CONTROL  &kp LSHIFT  &kp RIGHT_ALT      &trans  &trans                          &trans
+&kp LC(LS(Z))  &trans  &lt 7 LC(S)  &kp LEFT_CONTROL  &kp LSHIFT  &kp RIGHT_ALT      &trans  &trans                          &trans
             >;
         };
 
@@ -183,10 +183,10 @@
 
         blender {
             bindings = <
-&kp TAB         &kp Q          &kp W      &kp E  &kp R                        &trans  &trans  &trans  &trans  &trans
-&kp LCTRL       &kp A          &kp S      &kp D  &kp F    &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp Z          &kp X      &kp C  &kp V    &kp B       &trans  &trans  &trans  &trans  &trans  &trans
-&kp LC(Z)       &kp RIGHT_ALT  &kp SPACE  &kp G  &lt 8 S  &kp R       &trans  &trans                          &trans
+&kp N7        &kp N8         &kp N9        &kp E   &kp R                        &trans  &trans  &trans  &trans  &trans
+&kp NUMBER_4  &kp N5         &kp NUMBER_6  &kp N0  &kp F    &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&kp NUMBER_1  &kp N2         &kp NUMBER_3  &kp C   &kp V    &kp B       &trans  &trans  &trans  &trans  &trans  &trans
+&kp N0        &kp RIGHT_ALT  &kp SPACE     &kp G   &lt 8 S  &kp R       &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PG_UP>;
