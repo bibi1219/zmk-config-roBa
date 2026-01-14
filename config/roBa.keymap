@@ -136,8 +136,8 @@
 
         Blender2 {
             bindings = <
-&kp W          &kp I   &kp Q        &kp E             &trans                                 &trans  &trans  &trans  &trans  &trans
-&kp D          &kp R   &kp SPACE    &kp TAB           &kp S       &trans             &trans  &trans  &trans  &trans  &trans  &trans
+&kp W          &kp I   &kp R        &kp E             &trans                                 &trans  &trans  &trans  &trans  &trans
+&kp D          &kp Q   &kp SPACE    &kp TAB           &kp S       &trans             &trans  &trans  &trans  &trans  &trans  &trans
 &kp LC(Z)      &kp Z   &kp X        &kp A             &kp Y       &trans             &trans  &trans  &trans  &trans  &trans  &trans
 &kp LC(LS(Z))  &trans  &lt 7 LC(S)  &kp LEFT_CONTROL  &kp LSHIFT  &kp RIGHT_ALT      &trans  &trans                          &trans
             >;
