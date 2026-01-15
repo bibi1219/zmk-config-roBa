@@ -118,7 +118,7 @@
             bindings = <
 &kp Q             &kp L          &kp U      &kp COMMA         &kp PERIOD                                      &kp F        &kp W  &kp R  &kp Y  &kp P
 &kp E             &kp I          &kp A      &kp O             &kp MINUS    &lt 6 F12           &kp SLASH      &kp K        &kp T  &kp N  &kp S  &lt 5 H
-&mt LEFT_SHIFT J  &kp X          &kp C      &kp V             &kp GRAVE    &kp F1              &to 2          &kp G        &kp D  &kp M  &kp Z  &mt RIGHT_SHIFT B
+&mt LEFT_SHIFT J  &kp X          &kp C      &kp V             &kp GRAVE    &to 2               &to 2          &kp G        &kp D  &kp M  &kp Z  &mt RIGHT_SHIFT B
 &kp RIGHT_GUI     &kp RIGHT_ALT  &kp LCTRL  &lt 5 LANGUAGE_2  &lt 3 SPACE  &kp LANGUAGE_1      &kp BACKSPACE  &lt 1 ENTER                       &kp ESCAPE
             >;
 
