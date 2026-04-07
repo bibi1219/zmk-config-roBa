@@ -118,7 +118,7 @@
         kako4: kako4 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LANGUAGE_1 &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT &kp LANGUAGE_2>;
+            bindings = <&kp LANGUAGE_2 &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT &kp LANGUAGE_1>;
             label = "kako4";
         };
     };
