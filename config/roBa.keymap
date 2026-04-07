@@ -75,6 +75,11 @@
             bindings = <&kp QUESTION>;
             key-positions = <18 19>;
         };
+
+        kakko4 {
+            bindings = <&kako4>;
+            key-positions = <24 23>;
+        };
     };
 
     behaviors {
@@ -108,6 +113,13 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp ENTER &kp LEFT>;
             label = "KAKO";
+        };
+
+        kako4: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANGUAGE_1 &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT &kp LANGUAGE_2>;
+            label = "NEW_MACRO";
         };
     };
 
