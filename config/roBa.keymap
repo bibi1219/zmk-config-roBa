@@ -116,21 +116,21 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp L          &kp U      &kp COMMA         &kp PERIOD                                      &kp F        &kp W  &kp R  &kp Y  &kp P
-&kp E             &kp I          &kp A      &kp O             &kp MINUS    &lt 6 F12           &kp SLASH      &kp K        &kp T  &kp N  &kp S  &lt 5 H
-&mt LEFT_SHIFT J  &kp X          &kp C      &kp V             &kp GRAVE    &trans              &trans         &kp G        &kp D  &kp M  &kp Z  &mt RIGHT_SHIFT B
-&kp RIGHT_GUI     &kp RIGHT_ALT  &kp LCTRL  &lt 5 LANGUAGE_2  &lt 3 SPACE  &kp LANGUAGE_1      &kp BACKSPACE  &lt 1 ENTER                       &kp ESCAPE
+&kp Q          &kp L          &kp U      &kp COMMA         &kp PERIOD                                      &kp F        &kp W  &kp R  &kp Y  &kp P
+&kp E          &kp I          &kp A      &kp O             &kp MINUS    &lt 6 F12           &kp AMPERSAND  &kp K        &kp T  &kp N  &kp S  &lt 5 H
+&kp J          &kp X          &kp C      &kp V             &kp GRAVE    &trans              &kp PERCENT    &kp G        &kp D  &kp M  &kp Z  &mt RIGHT_SHIFT B
+&kp RIGHT_GUI  &kp RIGHT_ALT  &kp LCTRL  &lt 5 LANGUAGE_2  &lt 3 SPACE  &kp LANGUAGE_1      &kp BACKSPACE  &lt 1 ENTER                       &kp ESCAPE
             >;
 
-            sensor-bindings = <&encoder_msc_down_up>;
+            sensor-bindings = <&inc_dec_kp PRINTSCREEN F12>;
         };
 
         nambar_kigou {
             bindings = <
-&trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans                               &kp HASH     &kp AMPERSAND   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&kp NUMBER_0  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp EXCLAMATION  &trans      &trans  &kp PERCENT  &kp QUESTION    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SLASH
-&trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COLON        &trans      &trans  &kp PIPE     &kp UNDERSCORE  &kp F15               &kp F16                &trans
-&trans        &trans        &trans        &trans        &trans           &trans      &trans  &trans                                                                    &trans
+&trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans                               &kp HASH  &kp EQUAL       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&kp NUMBER_0  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp EXCLAMATION  &trans      &trans  &kp PLUS  &kp QUESTION    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SLASH
+&trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COLON        &trans      &trans  &kp PIPE  &kp UNDERSCORE  &kp F15               &kp F16                &trans
+&trans        &trans        &trans        &trans        &trans           &trans      &trans  &trans                                                                 &trans
             >;
         };
 
