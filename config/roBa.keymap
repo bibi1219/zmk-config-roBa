@@ -160,7 +160,7 @@
 &kp BACKSPACE  &kp HOME        &kp UP_ARROW    &kp END          &kp LC(LS(T))                                   &kp LC(Y)      &kp LC(RS(TAB))  &kp LC(R)    &kp LC(TAB)  &kp LA(LC(LEFT))
 &kp LC(A)      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp ENTER      &kp PRINTSCREEN      &trans      &kp LC(T)      &mkp LCLK        &mkp MCLK    &mkp RCLK    &lt 5 LC(W)
 &kp LC(Z)      &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp LS(LC(V))  &trans               &trans      &kp F11        &mkp MB4         &kp LA(TAB)  &mkp MB5     &kp LA(LC(RIGHT))
-&trans         &trans          &trans          &trans           &trans         &trans               &kp DELETE  &kp LC(ENTER)                                             &trans
+&kp AT         &kp R           &trans          &trans           &trans         &trans               &kp DELETE  &kp LC(ENTER)                                             &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(C_VOLUME_DOWN) LC(C_VOLUME_UP)>;
@@ -180,7 +180,7 @@
 &trans  &trans          &trans     &trans                  &trans                      &trans          &trans  &trans     &trans     &trans
 &trans  &kp RS(LEFT)    &kp LC(S)  &kp RS(RIGHT)           &trans  &trans      &trans  &trans          &trans  &kp LC(I)  &kp LC(O)  &kp LC(P)
 &trans  &kp LC(LS(UP))  &kp LC(D)  &kp LC(RS(DOWN_ARROW))  &trans  &trans      &trans  &trans          &trans  &trans     &trans     &trans
-&kp AT  &trans          &kp R      &trans                  &trans  &trans      &trans  &kp LANGUAGE_2                                &trans
+&trans  &trans          &trans     &trans                  &trans  &trans      &trans  &kp LANGUAGE_2                                &trans
             >;
         };
 
