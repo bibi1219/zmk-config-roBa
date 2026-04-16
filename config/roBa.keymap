@@ -180,7 +180,7 @@
 &trans  &trans          &trans     &trans                  &trans                      &trans          &trans  &trans     &trans     &trans
 &trans  &kp RS(LEFT)    &kp LC(S)  &kp RS(RIGHT)           &trans  &trans      &trans  &trans          &trans  &kp LC(I)  &kp LC(O)  &kp LC(P)
 &trans  &kp LC(LS(UP))  &kp LC(D)  &kp LC(RS(DOWN_ARROW))  &trans  &trans      &trans  &trans          &trans  &trans     &trans     &trans
-&trans  &trans          &trans     &trans                  &trans  &trans      &trans  &kp LANGUAGE_2                                &trans
+&kp AT  &trans          &kp R      &trans                  &trans  &trans      &trans  &kp LANGUAGE_2                                &trans
             >;
         };
 
