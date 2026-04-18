@@ -80,6 +80,11 @@
             bindings = <&kako4>;
             key-positions = <24 23>;
         };
+
+        aqua {
+            bindings = <&kp LS(LEFT_BRACKET)>;
+            key-positions = <26 25>;
+        };
     };
 
     behaviors {
