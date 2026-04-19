@@ -85,6 +85,11 @@
             bindings = <&kp LS(LEFT_BRACKET)>;
             key-positions = <26 25>;
         };
+
+        apo {
+            bindings = <&kp SQT>;
+            key-positions = <41 18>;
+        };
     };
 
     behaviors {
