@@ -112,7 +112,7 @@
         kako3: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp F15 &kp F16 &kp ENTER &kp LEFT>;
+            bindings = <&kp F15 &kp F16 &kp ENTER &kp LEFT &kp LANGUAGE_1>;
             label = "NEW_MACRO";
         };
 
