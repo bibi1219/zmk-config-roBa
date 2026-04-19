@@ -90,6 +90,11 @@
             bindings = <&kp SQT>;
             key-positions = <41 18>;
         };
+
+        maru {
+            bindings = <&kp PERIOD>;
+            key-positions = <38 13>;
+        };
     };
 
     behaviors {
