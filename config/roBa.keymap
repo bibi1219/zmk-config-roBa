@@ -33,7 +33,7 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <11 12>;
+            key-positions = <2 1>;
         };
 
         blender {
