@@ -159,6 +159,8 @@
 &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COLON  &trans      &trans  &kp PIPE  &kp UNDERSCORE    &kp F15               &kp F16                &trans
 &trans        &trans        &trans        &trans        &trans     &trans      &trans  &trans                                                                   &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp LC(I) LC(Q)>;
         };
 
         Blender2 {
