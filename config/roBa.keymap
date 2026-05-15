@@ -149,7 +149,7 @@
 &kp RIGHT_GUI  &kp RIGHT_ALT  &kp LCTRL  &lt 5 LANGUAGE_2  &lt 3 SPACE  &mt RIGHT_SHIFT LANG1      &kp BACKSPACE  &lt 1 ENTER                       &kp ESCAPE
             >;
 
-            sensor-bindings = <&inc_dec_kp RC(MINUS) RC(PLUS)>;
+            sensor-bindings = <&inc_dec_kp RC(C_VOLUME_DOWN) RC(C_VOLUME_UP)>;
         };
 
         nambar_kigou {
@@ -180,7 +180,7 @@
 &kp AT         &kp R           &trans          &trans           &trans         &trans               &kp DELETE  &kp LC(ENTER)                                             &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(C_VOLUME_DOWN) LC(C_VOLUME_UP)>;
+            sensor-bindings = <&inc_dec_kp LC(MINUS) LC(PLUS)>;
         };
 
         MOUSE {
