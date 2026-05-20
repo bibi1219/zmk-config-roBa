@@ -92,8 +92,13 @@
         };
 
         maru {
-            bindings = <&kp PERIOD>;
+            bindings = <&kp LC(LS(DOWN_ARROW))>;
             key-positions = <38 13>;
+        };
+
+        hidari {
+            bindings = <&kp LS(LC(UP_ARROW))>;
+            key-positions = <38 11>;
         };
     };
 
