@@ -91,7 +91,7 @@
             key-positions = <41 18>;
         };
 
-        maru {
+        migi {
             bindings = <&kp LC(LS(DOWN_ARROW))>;
             key-positions = <38 13>;
         };
