@@ -102,7 +102,7 @@
         };
 
         peast {
-            bindings = <&kp LC(V)>;
+            bindings = <&kp LC(LS(V))>;
             key-positions = <38 25>;
         };
     };
