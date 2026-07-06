@@ -100,6 +100,11 @@
             bindings = <&kp LS(LC(UP_ARROW))>;
             key-positions = <38 11>;
         };
+
+        peast {
+            bindings = <&kp LC(V)>;
+            key-positions = <38 25>;
+        };
     };
 
     behaviors {
