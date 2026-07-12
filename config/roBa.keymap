@@ -186,7 +186,7 @@
             bindings = <
 &kp BACKSPACE  &kp HOME        &kp UP_ARROW    &kp END          &kp LC(LS(T))                                   &kp LC(Y)      &kp LC(RS(TAB))  &kp LC(R)    &kp LC(TAB)  &kp LA(LC(LEFT))
 &kp LC(A)      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp ENTER      &kp PRINTSCREEN      &trans      &kp LC(T)      &mkp LCLK        &mkp MCLK    &mkp RCLK    &lt 5 LC(W)
-&kp LC(Z)      &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp LS(LC(V))  &trans               &trans      &kp F11        &mkp MB4         &kp LA(TAB)  &mkp MB5     &kp LA(LC(RIGHT))
+&kp LC(Z)      &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp LS(LC(V))  &kp J                &trans      &kp F11        &mkp MB4         &kp LA(TAB)  &mkp MB5     &kp LA(LC(RIGHT))
 &kp AT         &kp R           &trans          &trans           &trans         &trans               &kp DELETE  &kp LC(ENTER)                                             &trans
             >;
 
