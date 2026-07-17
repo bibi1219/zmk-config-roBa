@@ -110,6 +110,16 @@
             bindings = <&kp F1>;
             key-positions = <12 38>;
         };
+
+        back10 {
+            bindings = <&kp LS(LC(NUMBER_3))>;
+            key-positions = <38 22>;
+        };
+
+        skep10 {
+            bindings = <&kp LS(LC(NUMBER_4))>;
+            key-positions = <38 23>;
+        };
     };
 
     behaviors {
