@@ -105,6 +105,11 @@
             bindings = <&kp LC(LS(V))>;
             key-positions = <38 25>;
         };
+
+        f1 {
+            bindings = <&kp F1>;
+            key-positions = <12 38>;
+        };
     };
 
     behaviors {
