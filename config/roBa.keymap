@@ -58,7 +58,7 @@
 
         kako2 {
             bindings = <&kako2>;
-            key-positions = <19 20>;
+            key-positions = <30 31>;
         };
 
         kako3 {
@@ -120,6 +120,11 @@
             bindings = <&kp LS(LC(NUMBER_4))>;
             key-positions = <38 23>;
         };
+
+        ns {
+            bindings = <&ns>;
+            key-positions = <19 20>;
+        };
     };
 
     behaviors {
@@ -160,6 +165,13 @@
             #binding-cells = <0>;
             bindings = <&kp LANGUAGE_2 &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT &kp LANGUAGE_1>;
             label = "kako4";
+        };
+
+        ns: ns {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp X &kp N>;
+            label = "NS";
         };
     };
 
