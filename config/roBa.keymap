@@ -106,9 +106,9 @@
             key-positions = <38 25>;
         };
 
-        f1 {
+        onsei {
             bindings = <&kp RG(RC(V))>;
-            key-positions = <12 38>;
+            key-positions = <38 24>;
         };
 
         back10 {
@@ -124,6 +124,11 @@
         ns {
             bindings = <&ns>;
             key-positions = <19 20>;
+        };
+
+        aqua {
+            bindings = <&kp GRAVE>;
+            key-positions = <41 19>;
         };
     };
 
