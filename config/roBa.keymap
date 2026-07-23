@@ -132,7 +132,7 @@
         };
 
         henkan {
-            bindings = <&kp INT_HENKAN>;
+            bindings = <&kp F18>;
             key-positions = <38 41>;
         };
     };
