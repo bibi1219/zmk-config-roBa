@@ -132,7 +132,7 @@
         };
 
         henkan {
-            bindings = <&kp RG(SLASH)>;
+            bindings = <&kp RG(FSLH)>;
             key-positions = <38 41>;
         };
     };
