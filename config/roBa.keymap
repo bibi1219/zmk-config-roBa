@@ -132,7 +132,7 @@
         };
 
         henkan {
-            bindings = <&kp LC(BACKSPACE)>;
+            bindings = <&kp INT_HENKAN>;
             key-positions = <38 41>;
         };
     };
