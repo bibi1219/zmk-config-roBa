@@ -130,6 +130,11 @@
             bindings = <&kp GRAVE>;
             key-positions = <41 19>;
         };
+
+        henkan {
+            bindings = <&kp RG(SLASH)>;
+            key-positions = <38 41>;
+        };
     };
 
     behaviors {
@@ -236,10 +241,10 @@
 
         SCROLL {
             bindings = <
-&trans  &trans              &trans     &trans               &trans                      &trans         &trans  &trans     &trans     &trans
-&trans  &kp RS(LEFT_ARROW)  &kp LC(S)  &kp RS(RIGHT_ARROW)  &trans  &trans      &trans  &trans         &trans  &kp LC(I)  &kp LC(O)  &kp LC(P)
-&trans  &trans              &kp LC(D)  &trans               &trans  &trans      &trans  &trans         &trans  &trans     &trans     &trans
-&trans  &trans              &trans     &trans               &trans  &trans      &trans  &kp RG(SLASH)                                &trans
+&trans  &trans              &trans     &trans               &trans                      &trans  &trans  &trans     &trans     &trans
+&trans  &kp RS(LEFT_ARROW)  &kp LC(S)  &kp RS(RIGHT_ARROW)  &trans  &trans      &trans  &trans  &trans  &kp LC(I)  &kp LC(O)  &kp LC(P)
+&trans  &trans              &kp LC(D)  &trans               &trans  &trans      &trans  &trans  &trans  &trans     &trans     &trans
+&trans  &trans              &trans     &trans               &trans  &trans      &trans  &trans                                &trans
             >;
         };
 
